@@ -1,23 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 
 
-# In[2]:
-
-
+# train, test Data
 train_dir = os.path.join('Cats_and_dogs/train')
 val_dir = os.path.join('Cats_and_dogs/validation')
 
-
-# In[3]:
-
+# Data Augmentation
 
 train_generator = ImageDataGenerator(rescale=1./255.,
                                    rotation_range=0.4,
@@ -28,15 +18,7 @@ train_generator = ImageDataGenerator(rescale=1./255.,
                                    horizontal_flip=True,
                                    fill_mode='nearest')
 
-
-# In[4]:
-
-
 test_generator = ImageDataGenerator(rescale=1./255.)
-
-
-# In[5]:
-
 
 train_data = train_generator.flow_from_directory(train_dir,
                                                 batch_size=64,
@@ -50,9 +32,7 @@ test_data = test_generator.flow_from_directory(val_dir,
                                                 target_size=(150, 150),
                                                 class_mode='binary')
 
-
-# In[6]:
-
+# Model
 
 model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(32, 3, activation='relu', input_shape=(150, 150, 3)),
@@ -69,41 +49,23 @@ model = tf.keras.models.Sequential([
 ])
 
 
-# In[7]:
-
-
 model.compile(loss='binary_crossentropy', optimizer=tf.keras.optimizers.SGD(lr=0.001, momentum=0.9),
              metrics=['accuracy'])
 
+print(model.summary())
 
-# In[8]:
-
-
-model.summary()
-
-
-# In[9]:
-
+# training
 
 history = model.fit(train_data, steps_per_epoch=len(train_data),
                     validation_data=test_data, validation_steps=len(test_data), 
                     epochs=150, verbose=2)
 
-
-# In[12]:
-
-
+# Evaluating
 model.evaluate(test_data, verbose=5)
-
-
-# In[19]:
-
 
 print(train_data.class_indices)
 
-
-# In[20]:
-
+# Testing
 
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
@@ -123,5 +85,5 @@ def run_example():
     else:
         print('dog')
     
-run_example()
+print(run_example())
 
