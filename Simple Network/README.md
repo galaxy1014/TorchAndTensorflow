@@ -1,3 +1,11 @@
 # Simple Network
-  
-## 해당 파트에서는 layer가 하나밖에 없는 모델을 기준으로 합니다.
+
+## This part's models are only use one-layer
+
+* [Linear Regression(PyTorch](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/Simple%20Network/Linear%20Regression(PyTorch).py)
+
+* [Linear Regression(Tensorflow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/Simple%20Network/Linear%20Regression(Tensorflow).py)  
+
+* [Multiple Linear Regression(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/Simple%20Network/Multiple%20Linear%20Regression(PyTorch).py)  
+
+* [Multiple Linear Regression(Tensorflow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/Simple%20Network/Multiple%20Linear%20Regression(Tensorflow).py)
