@@ -6,7 +6,7 @@
 
 * [IMDB dataset sentiment analysis using CNN(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20CNN(PyTorch).py)
 
-* [IMDB dataset sentiment analysis using n_gram(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20n_gram(PyTorch).py)  
+* [IMDB dataset sentiment analysis using n gram(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20n%20gram(PyTorch).py)  
 
 * [IMDB dataset sentiment analysis using RNN(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20RNN(PyTorch).py)  
 
