@@ -32,4 +32,4 @@ Implement the same topic as pytorch and tensorflow
 * [IMDB dataset sentiment analysis using RNN(TensorFlow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20RNN(TensorFlow).py)  
 * [IMDB dataset sentiment analysis using SimpleRNN(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20SimpleRNN(PyTorch).py)  
 * [IMDB dataset sentiment analysis using SimpleRNN(TensorFlow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20SimpleRNN(TensorFlow).py)  
-* [IMDB dataset sentiment analysis using n_gram(pytorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20n_gram(pytorch).py)
+* [IMDB dataset sentiment analysis using n_gram(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20n_gram(PyTorch).py)
