@@ -16,12 +16,12 @@ test_ds = tf.data.Dataset.from_tensor_slices((x_test, y_test)).batch(32)
 
 # Generate model
 model = tf.keras.models.Sequential([
-      tf.keras.layers.Embedding(25000, 100),
-      tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(100, return_sequences=True)),
-      tf.keras.layers.Dropout(0.5),
-      tf.keras.layers.Dense(200, activation='tanh'),
-      tf.keras.layers.Dense(1, activation='sigmoid'),
-      tf.keras.layers.Dropout(0.5)
+  tf.keras.layers.Embedding(25000, 100),
+  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(128, return_sequences=True)),
+  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
+  tf.keras.layers.Dropout(0.3),
+  tf.keras.layers.Dense(64, activation='tanh'),
+  tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
 # Training
@@ -29,3 +29,5 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 model.fit(train_ds, epochs=20, validation_data=test_ds)
 
+# Evaluate
+model.evaluate(test_ds)
