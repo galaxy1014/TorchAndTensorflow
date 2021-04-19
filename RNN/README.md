@@ -11,3 +11,5 @@
 * [IMDB dataset sentiment analysis using RNN(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20RNN(PyTorch).py)  
 
 * [IMDB dataset sentiment analysis using RNN(TensorFlow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/IMDB%20dataset%20sentiment%20analysis%20using%20RNN(TensorFlow).py)
+
+* [Multi class sentiment analysis using LSTM(PyTorch).py](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/RNN/Multi%20class%20sentiment%20analysis%20using%20LSTM(PyTorch).py)
