@@ -1,6 +1,7 @@
 # TorchAndTensorflow
 
-Implement the same topic as pytorch and tensorflow
+Implement the common category by using pytorch and tensorflow
+
 
 ## Simple Network  
 
@@ -14,7 +15,7 @@ Implement the same topic as pytorch and tensorflow
 * [Boston Housing(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/DNN/Boston%20Housing(PyTorch).py)  
 * [Boston Housing(TensorFlow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/DNN/Boston%20Housing(TensorFlow).py)  
 * [MNIST(Tensorflow)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/DNN/MNIST(Tensorflow).py)  
-* [MNIST(Torch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/DNN/MNIST(Torch).py)  
+* [MNIST(PyTorch)](https://github.com/galaxy1014/TorchAndTensorflow/blob/main/DNN/MNIST(PyTorch).py)  
 
 ## CNN  
 
